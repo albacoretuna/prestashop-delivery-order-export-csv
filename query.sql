@@ -36,6 +36,10 @@ WHERE
 GROUP BY a.`id_order`
 ORDER BY a.`id_order` ASC;
 
+
+
+--- The rest is for converting dates to Jalali, copied from: https://github.com/zoghal/Presian-Date-for-MySQL/blob/master/pdate.sql
+
 --    Gregorian - Jalali Date Converter Functions for Mysql
 --    Copyright (C) 2012  Mohammad Saleh Souzanchi, Mehran . M . Spitman
 --
